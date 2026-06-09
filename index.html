@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- En-tête -->
+    <header>
+        <h1>Restaurant Délice</h1>
+        <p>Système simple de gestion de restaurant</p>
+    </header>
+
+    <hr>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="#accueil">Accueil</a> |
+        <a href="#menu">Menu</a> |
+        <a href="#reservations">Réservations</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h2>Bienvenue</h2>
+
+        <p>
+            Bienvenue sur le site de gestion du Restaurant Délice.
+            Nous proposons des plats locaux et internationaux.
+        </p>
+
+        <img src="image/resto.png" alt="Restaurant" width="500">
+        <img src="image/resto1.png" alt="Restaurant" width="500">
+        <img src="image/resto2.png" alt="Restaurant" width="500">
+        
+    </section>
+
+    <hr>
+
+    <!-- Section Menu -->
+    <section id="menu">
+
+        <h2>Nos Plats</h2>
+
+        <ul>
+            <li>Poulet Braisé</li>
+            <li>Riz Sauce Arachide</li>
+            <li>Pizza Royale</li>
+            <li>Hamburger Maison</li>
+        </ul>
+
+        <h3>Étapes de commande</h3>
+
+        <ol>
+            <li>Choisir un plat</li>
+            <li>Passer la commande</li>
+            <li>Payer</li>
+            <li>Recevoir le repas</li>
+        </ol>
+
+    </section>
+
+    <hr>
+
+    <!-- Tableau des plats -->
+    <section>
+
+        <h2>Tarifs</h2>
+
+        <table border="1">
+
+            <tr>
+                <th>Plat</th>
+                <th>Prix</th>
+            </tr>
+
+            <tr>
+                <td>Poulet Braisé</td>
+                <td>5000 FCFA</td>
+            </tr>
+
+            <tr>
+                <td>Pizza Royale</td>
+                <td>7000 FCFA</td>
+            </tr>
+
+            <tr>
+                <td>Hamburger Maison</td>
+                <td>3500 FCFA</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Audio -->
+    <section>
+
+        <h2>Musique d'ambiance</h2>
+
+        <audio controls>
+            <source src="audio/hymne.mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas l'audio.
+        </audio>
+
+    </section>
+
+    <hr>
+
+    <!-- Vidéo -->
+    <section>
+
+        <h2>Présentation du Restaurant</h2>
+
+        <video width="500" controls>
+            <source src="video/video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+
+    </section>
+
+    <hr>
+
+    <!-- Formulaire de réservation -->
+    <section id="reservations">
+
+        <h2>Réservation</h2>
+
+        <form>
+
+            <label>Nom :</label><br>
+            <input type="text" placeholder="Votre nom"><br><br>
+
+            <label>Téléphone :</label><br>
+            <input type="tel" placeholder="Votre téléphone"><br><br>
+
+            <label>Nombre de personnes :</label><br>
+            <input type="number"><br><br>
+
+            <label>Date :</label><br>
+            <input type="date"><br><br>
+
+            <button type="submit">
+                Réserver
+            </button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email : souleymaneongoiba659@gmail.com</p>
+
+        <p>Téléphone : +223 79 37 84 71</p>
+
+        <p>
+            <a href="https://meilleuregestion.store">
+                Logiciel de gestion de restaurant
+            </a>
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 Restaurant Délice - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
